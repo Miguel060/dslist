@@ -36,7 +36,7 @@ public class Game {
         this.genre = genre;
         this.platforms = platforms;
         this.imgUrl = imgUrl;
-        this.shortDescription = hortDescription;
+        this.shortDescription = shortDescription;
         this.score = score;
     }
 
@@ -97,11 +97,11 @@ public class Game {
         this.imgUrl = imgUrl;
     }
 
-    public String getHortDescription() {
+    public String getShortDescription() {
         return shortDescription;
     }
 
-    public void setHortDescription(String hortDescription) {
+    public void setShortDescription(String hortDescription) {
         this.shortDescription = hortDescription;
     }
 
